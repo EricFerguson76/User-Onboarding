@@ -43,7 +43,7 @@ const Forms = ({ errors, touched, values, status }) => {
           <p className='error'>{errors.password}</p>
         )}
 
-        Terms of Service
+        <h2>Terms of Service</h2>
         <Field
           type='checkbox'
           name='terms'
